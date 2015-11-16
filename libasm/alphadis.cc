@@ -26,6 +26,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#include <cassert>
 
 #define BITS_OPC(opcode)		((opcode >> 26) & 0x3f)
 #define BITS_FFUN(opcode)	((opcode >> 5)  & 0x7ff)
